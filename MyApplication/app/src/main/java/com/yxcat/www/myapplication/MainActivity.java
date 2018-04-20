@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         tv = (TextView) findViewById(R.id.tv);
-        tv.setText("我修改了内容");
+        tv.setText("二手交易市场，找咸鱼");
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
